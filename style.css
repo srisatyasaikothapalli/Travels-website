@@ -1,0 +1,375 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body {
+    
+    
+    background-repeat: no-repeat;
+
+    background-image: url("https://images6.alphacoders.com/893/thumb-1920-893707.jpg");
+}
+.banner{
+    padding-top: 4%;
+    padding-bottom: 6%;
+    color: white;
+}
+.header{
+     
+    width:100%;
+    height:100px;
+    padding:15px 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.logo{
+    
+     display: flex;
+     flex-wrap: wrap;
+     row-gap: 2px;
+     column-gap: 6px;
+     overflow: hidden;
+    height: 50px;
+    width:200px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+     background-color: #2277d2;
+    border-radius: 40% 40%; 
+    padding: 2px;
+    font-size: 22px;
+    box-shadow: 6px 4px 5px black;
+    
+    
+}
+.logo-pic{
+    height:30px;
+}
+.nav{
+    
+    height: 50px;
+    width:500px;
+    
+
+}
+.nav-links{
+    list-style-type:none;
+    display: flex;
+    justify-content: space-between;
+    row-gap: 4px;
+    font-family: poppins;
+    align-items: center;
+    font-size: 18px;
+    
+}
+.nav-link {
+    padding: 10px 10px;
+    align-items: center;
+    transition: .3s;
+}
+.nav-link:hover{
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+}
+.banner-details {
+    width:100%;
+    height: 350px;
+    
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 120px;
+    
+
+}
+.badge{
+    
+    width: max-content;
+    padding: 10px 20px;
+    background-color: rgb(27, 20, 20,.5);
+    font-family: poppins;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.banner-heading{
+    font-size: 50px;
+    color:black;
+    text-shadow: 6px 5px 5px white;
+    
+}
+.btn {
+    background-color: black;
+    padding: 20px 30px;
+    color: white;
+    cursor: pointer;
+}
+.booking{
+   
+    display:flex;
+    background-color: rgba(255, 255, 255, .7);
+    column-gap: 5%;
+    width:80%; 
+    padding: 20px 10px;
+    margin-top: 20%;
+    margin-bottom: 5%;
+    color: black;
+
+    
+}
+.inp 
+{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'poppins';
+    row-gap: 15px;
+    justify-content: space-evenly;
+    height: max-content;
+    
+        
+}
+input 
+{
+    height: 40px;
+    text-indent: 5px;
+    font-size: 16px;
+}
+.btn-book{
+    margin-top: 32px;
+    padding: 10px 30px;
+    align-items: center;
+    height: 40px;
+    text-indent: 5px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+
+}
+.about{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 90px;
+    row-gap: 15px;
+    font-family: 'poppins';
+    font-size: 30px;
+    font-weight: 200;
+    word-spacing: 10px;
+    
+}
+.bus{
+    height: 70px;
+    
+}
+
+.rooms 
+{
+    width: 100%;
+    padding: 50px 15%;
+    background-color: #f9f9f9;
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.room-title{
+    font-size: 32px;
+    
+
+}
+.room-area{
+    /* background-color: blue; */
+    width: 100%;
+   
+    height:10px;
+}
+.rooms-area 
+{
+    width: 100%;
+    padding: 20px 0px;
+    /* background-color: red;  */
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5%;
+    row-gap: 50px;
+}
+
+
+
+.room{
+    width: 30%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.room-img 
+{
+    height: 270px;
+    width: 100%;
+    /* background-color:yellow; */
+    overflow: hidden;
+    cursor: pointer;
+    transition: .3s;
+}
+.img-details{
+    font-size: 16px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+  
+
+}
+.r-btn{
+    background-color: black;
+    color:white;
+    padding:10px 20px;
+    
+}
+.room-img:hover {
+    transform: scale(1.1);
+
+}
+.contact {
+    padding-top: 5%;
+   display: flex;
+   justify-content: space-evenly;
+   
+    
+}
+.about-matter{
+    /* background-color: blue; */
+    width: 30%;
+    height: auto;
+    
+    font-size: 18px;
+    word-spacing: 6px;
+    
+    
+}
+.about-matter h1{
+    text-align: center;
+}
+.subscribe input{
+    height: 55px;
+}
+
+.sub{
+    background-color: black;
+    color: white;
+    height: 54px;
+   
+}
+.food{
+    height: auto;
+    width:100%;
+    background-color:#262725;
+    padding:5% 10%;
+    display: flex;
+    align-items: center;
+     column-gap: 25px; 
+     margin:  2% 0px;
+
+}
+.food-img {
+    height:600px
+}
+.food-details{
+    color: white;
+    word-spacing: 4px;
+    padding: 3px 5px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.food-details h1{
+    font-size: 40px;
+    color: white;
+    padding-bottom: 5%;
+
+}
+.food-details button {
+    text-align: center;
+    width: 50%;
+    height: 50px;
+    cursor: pointer;
+}
+.food-details button:hover {
+    background-color: gray;
+}
+.premium {
+    padding: 5% 40px;
+    width: 100%;
+    height:800px;
+    margin: 5% 0px;
+    background-image: url("https://www.berjayahotel.com/sites/default/files/hotel-category-offers/langkawi/dining-blr.jpg");
+    background-repeat: no-repeat;
+    background-color: #a4b0be;
+    overflow: hidden;
+    
+    
+}
+.p-details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20%;
+    justify-content: center;
+    align-content: center;
+    font-size: 20px;
+    row-gap: 30px;
+    color: whitesmoke;
+    padding-left: 30px;
+    padding-right: 60%;
+   
+
+}
+.p-details button {
+    height: 40px;
+}
+.p-sec {
+    background-color: rgb(159, 151, 151,0.5);
+    padding:1px  10px ;
+}
+.gallary {
+    background-color: black;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    padding: 5% 10%;
+    color: #f9f9f9;
+    justify-content: center;
+    text-decoration: underline;
+    
+}
+.gal-img{
+    height:200px;
+    padding: 0px 4px;
+    cursor: pointer;
+    transition: .2s;
+     opacity: .5;
+    
+}
+.gal-img:hover{
+   opacity: 1;
+
+}
+.foot{
+    background-color: gray;
+    padding: 10px 20px;
+}
+
